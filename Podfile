@@ -15,8 +15,6 @@ target 'FitPetSample' do
     inherit! :search_paths
     
     # Pods for testing
-    pod 'RxTest'
-    pod 'RxNimble'
   end
 
   target 'FitPetSampleUITests' do

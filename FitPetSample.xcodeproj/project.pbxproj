@@ -148,14 +148,12 @@
 			isa = PBXGroup;
 			children = (
 				576618FC2A18783C00D09EF4 /* Extension */,
-				576618F32A16AEB000D09EF4 /* Cell */,
 				57FA7BFA2A15A99300211DEB /* Network */,
 				57FA7BF32A1465B600211DEB /* ViewModel */,
 				57FA7BF22A1465AE00211DEB /* View */,
 				57FA7BF12A1465A400211DEB /* Model */,
 				57FA7BC12A143C5700211DEB /* AppDelegate.swift */,
 				57FA7BC32A143C5700211DEB /* SceneDelegate.swift */,
-				57FA7BC52A143C5700211DEB /* ViewController.swift */,
 				57FA7BC72A143C5700211DEB /* Main.storyboard */,
 				57FA7BCA2A143C5A00211DEB /* Assets.xcassets */,
 				57FA7BCC2A143C5A00211DEB /* LaunchScreen.storyboard */,
@@ -193,6 +191,8 @@
 		57FA7BF22A1465AE00211DEB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				57FA7BC52A143C5700211DEB /* ViewController.swift */,
+				576618F32A16AEB000D09EF4 /* Cell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -266,7 +266,6 @@
 				57FA7BD02A143C5A00211DEB /* Sources */,
 				57FA7BD12A143C5A00211DEB /* Frameworks */,
 				57FA7BD22A143C5A00211DEB /* Resources */,
-				5D345779C12C2356CEA42BE9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -407,23 +406,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FitPetSample-FitPetSampleUITests/Pods-FitPetSample-FitPetSampleUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5D345779C12C2356CEA42BE9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FitPetSampleTests/Pods-FitPetSampleTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FitPetSampleTests/Pods-FitPetSampleTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FitPetSampleTests/Pods-FitPetSampleTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7DA1CC0A7BE9DEF5FFF8ECA4 /* [CP] Check Pods Manifest.lock */ = {
